@@ -15,3 +15,9 @@
 
 
 #deactivate -> 가상환경 비활성화 
+▶ 가상 환경 끌 때
+$ conda deactivate
+▶ 가상 환경 목록 확인
+$ conda info --envs
+▶ 가상 환경 삭제
+$ conda remove --name venv --all
